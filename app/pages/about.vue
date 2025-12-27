@@ -39,7 +39,7 @@ const items = [
                             avec aperçu en temps réel et publication en 1-clic vers GitHub." :links="[{
                                 label: 'Nuxt studio', to: 'https://content.nuxt.com/docs/studio/setup', trailingIcon: 'i-lucide-square-arrow-out-up-right', size: 'md', color: 'primary', variant: 'soft'
                             }, {
-                                label: 'Modifier les recettes', to: '/_studio', size: 'md', color: 'neutral', variant: 'outline', trailingIcon: 'i-lucide-square-pen'
+                                label: 'Modifier les recettes', to: '/recipes', size: 'md', color: 'neutral', variant: 'outline', trailingIcon: 'i-lucide-square-pen'
                             }]">
                     <NuxtImg src="about.png" class="rounded-lg" width="600" height="600" alt="Illustration" />
                 </UPageSection>
