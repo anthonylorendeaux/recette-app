@@ -14,7 +14,7 @@
     "better-sqlite3": "^12.5.0",
     "html2pdf.js": "^0.12.1",
     "nuxt": "^4.2.2",
-    "nuxt-studio": "1.0.0-beta.1"
+    "nuxt-studio": "1.0.0-beta.3"
   },
   "devDependencies": {
     "@nuxt/image": "^2.0.0"
