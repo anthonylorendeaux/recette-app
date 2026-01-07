@@ -22,7 +22,6 @@ export default defineContentConfig({
         prepTime: z.number().min(0).optional().describe('Temps de préparation (min)'),
         cookTime: z.number().min(0).optional().describe('Temps de cuisson (min)'),
         servings: z.number().min(1).default(4).describe('Nombre de personnes'),
-        ingredients: z.array(createIngredientSchema()).optional().describe('Liste des ingrédients')
       })
     }),
   }
