@@ -9,7 +9,6 @@ image: https://cdn.chefclub.tools/uploads/recipes/cover-thumbnail/f287b191-dc8e-
 prepTime: 15
 servings: 4
 slug: poulet-coco-curry
-ingredients: []
 ---
 
 ::article-header
