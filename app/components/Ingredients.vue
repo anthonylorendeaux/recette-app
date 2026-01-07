@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import type { CheckboxGroupItem } from '@nuxt/ui'
+import type { CheckboxGroupItem } from '@nuxt/ui';
 
-const props = defineProps({
-  ingredients: {
-    type: Array as PropType<Array<{ quantity: string, ingredient: string }>>,
-    default: () => []
-  }
-})
+interface Ingredient {
+  quantity: string,
+  ingredient: string
+}
+
+const props = defineProps<{
+  ingredients: Ingredient[]
+}>()
 
 const items = computed<CheckboxGroupItem[]>(() => {
   return props.ingredients.map(ingredient => ({

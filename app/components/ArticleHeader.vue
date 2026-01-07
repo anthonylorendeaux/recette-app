@@ -1,29 +1,21 @@
 <script setup lang="ts">
-const props = defineProps({
-  title: {
-    type: String,
-    required: true
-  },
-  description: {
-    type: String,
-    default: ''
-  },
-  headline: {
-    type: String,
-    default: ''
-  },
-  image: {
-    type: String,
-    default: ''
-  },
+
+const route = useRoute()
+
+const { data: recipe } = await useAsyncData(route.path, () => {
+  return queryCollection('recipes').path(route.path).first()
 })
+
+if (!recipe.value) {
+  throw createError({ statusCode: 404, statusMessage: 'Recette introuvable' })
+}
 
 </script>
 
 <template>
 
-  <UPageHeader :title="title" :description="description" :headline="headline">
+  <UPageHeader :title="recipe?.title" :description="recipe?.description" :headline="recipe?.category">
   </UPageHeader>
-  <NuxtImg v-if="image" :src="image" :alt="title" class="rounded-lg my-4" placeholder />
+  <NuxtImg v-if="recipe?.image" :src="recipe?.image" :alt="recipe.title" class="rounded-lg my-4" placeholder />
 
 </template>

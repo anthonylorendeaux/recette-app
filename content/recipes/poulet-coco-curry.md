@@ -3,10 +3,20 @@ title: Poulet Coco Curry
 author: Anthony
 category: plat principal
 cookTime: 25
-prepTime: 15
 date: 2025-12-21
 description: Un plat savoureux, rapide et parfumé au lait de coco et au curry. Parfait pour un dîner exotique plein de douceur.
 image: https://cdn.chefclub.tools/uploads/recipes/cover-thumbnail/f287b191-dc8e-4c85-bbb6-e26387c354d3.jpg
+prepTime: 15
+servings: 4
+slug: poulet-coco-curry
+ingredients: []
+---
+
+::article-header
+::
+
+::ingredients
+---
 ingredients:
   - quantity: 600 g
     ingredient: blancs de poulet
@@ -26,29 +36,10 @@ ingredients:
     ingredient: sel et poivre
   - quantity: facultatif
     ingredient: coriandre fraîche pour la déco
-servings: 4
-slug: poulet-coco-curry
----
-
-
-::article-header
----
-:author: author
-:category: category
-:created-at: createdAt
-:description: description
-:image: image
-:title: title
 ---
 ::
-
-
-::ingredients{:ingredients="ingredients"}
-::
-
 
 ## Préparation
-
 
 ### 1. Préparation des ingrédients
 
