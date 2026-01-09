@@ -14,7 +14,6 @@ export default defineContentConfig({
       schema: z.object({
         title: z.string().describe('Titre de la recette'),
         description: z.string().describe('Description courte pour le référencement'),
-        slug: z.string().describe('Slug de l\'article'),
         image: z.string().describe('URL de l\'image principale'),
         author: z.string().default('Famille').describe('Auteur de la recette'),
         category: recipeCategoryEnum,

@@ -9,7 +9,7 @@ const { data: recipes, status } = await useAsyncData(
     () => `recipes-${selectedType.value}`,
     async () => {
         const query = queryCollection('recipes')
-            .select("title", "description", "image", "category", "date", "slug")
+            .select("title", "description", "image", "category", "date", "path")
             .order('date', 'DESC')
             .limit(6);
         if (selectedType.value !== 'tous') {

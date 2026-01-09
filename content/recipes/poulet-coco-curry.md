@@ -8,7 +8,6 @@ description: Un plat savoureux, rapide et parfumé au lait de coco et au curry. 
 image: https://cdn.chefclub.tools/uploads/recipes/cover-thumbnail/f287b191-dc8e-4c85-bbb6-e26387c354d3.jpg
 prepTime: 15
 servings: 4
-slug: poulet-coco-curry
 ---
 
 ::article-header
