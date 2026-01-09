@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { data: recipes } = await useAsyncData('recipes', () => {
     const query = queryCollection('recipes')
-        .select("title", "description", "image", "category", "date", "slug")
+        .select("title", "description", "image", "category", "date", "path")
         .order('date', 'DESC')
         .limit(3);
     return query.all();
