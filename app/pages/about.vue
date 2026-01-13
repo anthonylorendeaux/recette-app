@@ -37,7 +37,7 @@ const items = [
                 <UPageSection orientation="horizontal" title="Comment ça marche ?" description="Nuxt Studio transforme notre site en un véritable CMS visuel.
                             Ajoutez, modifiez ou supprimez des recettes directement depuis l'interface,
                             avec aperçu en temps réel et publication en 1-clic vers GitHub." :links="[{
-                                label: 'Nuxt studio', to: 'https://content.nuxt.com/docs/studio/setup', trailingIcon: 'i-lucide-square-arrow-out-up-right', size: 'md', color: 'primary', variant: 'soft'
+                                label: 'Nuxt studio', to: 'https://nuxt.studio', trailingIcon: 'i-lucide-square-arrow-out-up-right', size: 'md', color: 'primary', variant: 'soft'
                             }, {
                                 label: 'Modifier les recettes', to: '/recipes', size: 'md', color: 'neutral', variant: 'outline', trailingIcon: 'i-lucide-square-pen'
                             }]">
