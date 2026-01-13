@@ -1,4 +1,4 @@
-import { z } from 'zod'
+import z from 'zod'
 
 export type RecipeCategory = 'tous' | 'entrée' | 'plat principal' | 'dessert' | 'goûter' | 'apéro'
 

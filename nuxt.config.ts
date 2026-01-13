@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+  nitro: {
+    preset: 'bun'
+  },
   modules: [
     '@nuxt/ui',
     '@nuxt/content',
