@@ -4,13 +4,13 @@ const cards = ref([
         title: 'Édition 1-Clic',
         description: 'Ajoutez une recette en 30s avec Nuxt Studio, sans code technique',
         icon: 'i-lucide-sparkles',
-        to: '/_studio',
+        to: '/',
     },
     {
         title: 'Recherche Magique',
         description: 'Trouvez "blanquette mamie" en 1s parmi 150+ recettes familiales',
         icon: 'i-lucide-file-search-corner',
-        to: '/recettes',
+        to: '/recipes',
     },
     {
         title: 'Famille Connectée',
@@ -57,7 +57,7 @@ const items = [
                         label: 'Voir toutes les recettes',
                         size: 'xl',
                         trailingIcon: 'i-lucide-cooking-pot',
-                        to: '/recettes'
+                        to: '/recipes'
                     }]">
                     <UCarousel v-slot="{ item }" :items="items" class="w-full max-w-xs mx-auto" arrows>
                         <NuxtImg :src="item" width="320" height="320" class="rounded-lg" placeholder />
